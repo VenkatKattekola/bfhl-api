@@ -3,7 +3,6 @@ services:
     name: bfhl-api
     buildCommand: "./mvnw clean package -DskipTests"
     startCommand: "java -jar target/bfhl-api-0.0.1-SNAPSHOT.jar"
-    plan: free
     envVars:
       - key: PORT
         value: 8080
